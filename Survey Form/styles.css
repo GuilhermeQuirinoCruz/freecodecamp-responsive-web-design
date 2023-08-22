@@ -1,0 +1,111 @@
+/*
+CORES
+azul principal: 4A6FA5
+roxo escuro: 32213A
+azul escuro: 1B065E
+branco: DBE9EE
+cinza claro: C0D6DF
+*/
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #DBE9EE;
+    font-size: 1.25em;
+}
+
+form,
+.description {
+    width: 80%;
+    min-width: 600px;
+    margin: auto;
+}
+
+form {
+    background-color: #C0D6DF;
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1B065E;
+}
+
+fieldset {
+    border-width: 0;
+    margin: 0 0 0 0;
+    max-width: 100%;
+}
+
+label {
+    display: block;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    min-width: 600px;
+    color: #4A6FA5;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+h2 {
+    text-align: center;
+    color: #1B065E;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
+
+h2:first-of-type {
+    margin-top: 1em;
+}
+
+.p-question {
+    margin-bottom: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+.dropdown,
+.number-label {
+    display: block;
+    border-radius: 0.25em;
+    border-width: 0.15px;
+    width: 100%;
+    min-height: 2.5em;
+    margin-top: 0em;
+    margin-bottom: 1.15em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    display: block;
+    border-radius: 0.25em;
+    border-width: 0;
+    margin-bottom: 1em;
+    min-height: 2.75em;
+    width: 100%;
+    background-color: #1B065E;
+    font-size: 1em;
+    color: #DBE9EE;
+}
+
+input[type="submit"]:hover {
+    background-color: #DBE9EE;
+    color: #1B065E;
+    cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    min-width: 1.5em;
+    min-height: 1.5em;
+    vertical-align: middle;
+}

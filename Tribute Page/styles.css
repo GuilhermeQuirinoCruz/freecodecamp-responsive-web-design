@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-size: 0.85em;
+}
+
+#image {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+#tribute-info, #tribute-link {
+    margin-left: 5vw;
+}
+
+.timeline {
+    margin: 0 auto;
+    background-color: #e5e5e5;
+    width: 90vw;
+    border-left: 5px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-title {
+    font-size: 20px;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
